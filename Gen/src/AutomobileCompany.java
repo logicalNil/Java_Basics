@@ -5,7 +5,7 @@ public class AutomobileCompany {
         Scanner input = new Scanner(System.in);
         int v = input.nextInt();
         int w = input.nextInt();
-        float res = ((4*v)-w)/2;
+        double res = ((4*v)-w)/2;
         if (w<2*v || w%2!=0 || res%1!=0){
             System.out.println("No Solution");
         }else{
