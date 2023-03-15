@@ -9,22 +9,25 @@ class Assignment1 {
     private int currMonthReading;
     private int unitsConsumed;
 
-    public void readInput() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter consumer number: ");
-        cousumerNumber = scanner.nextInt();
-        System.out.print("Enter consumer name: ");
-        consumerName = scanner.next();
-        System.out.print("Enter previous month reading: ");
-        prevMonthReading = scanner.nextInt();
-        System.out.print("Enter current month reading: ");
-        currMonthReading = scanner.nextInt();
+ public void readInput() {
+            Scanner scanner = new Scanner(System.in);
+            System.out.print("Enter consumer number: ");
+            cousumerNumber = scanner.nextInt();
+            scanner.nextLine();
+            System.out.print("Enter consumer name: ");
+            consumerName = scanner.nextLine();
+            System.out.print("Enter previous month reading: ");
+            prevMonthReading = scanner.nextInt();
+            System.out.print("Enter current month reading: ");
+            currMonthReading = scanner.nextInt();
 
-         // User Input type of ElectricityBill connection
-        System.out.print("Enter type of EB connection (D for domestic, C for commercial): ");
-        consumerType = scanner.next();
+            // User Input type of ElectricityBill connection
+            scanner.nextLine();
+            System.out.println("Enter type of EB connection (D for domestic, C for commercial): ");
+            consumerType = scanner.nextLine();
 
-        unitsConsumed = currMonthReading - prevMonthReading;
+            // Calculate units consumed
+            unitsConsumed = currMonthReading - prevMonthReading;
     }
 
     // Method to calculate the bill amount
@@ -56,6 +59,8 @@ class Assignment1 {
         }
         return billAmount;
     }
+
+    // Display the bill details
     public void displayBill() {
         double billAmount = calculateBillAmount();
         System.out.println("Consumer number: " + cousumerNumber);
