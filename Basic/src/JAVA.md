@@ -79,7 +79,8 @@
    #### 2. Instance Variables
         2.1. Instance Variables are variables that are declared inside a class, but outside a method, constructor or a block.
         2.2. When a space is allocated for an object in the heap, a slot for each instance variable value is created.
-        2.3. Instance Variables are created when an object is created with the use of the keyword new, and they will be destroyed when the object is destroyed.
+        2.3. Instance Variables are created when an object is created with the use of the keyword new, and they
+        will be destroyed when the object is destroyed.
         2.4. Instance Variables hold values that must be referenced by more than one method, constructor or block, 
         or essential parts of an object's state that must be present throughout the class.
         2.5. Access modifiers can be used for instance variables.
@@ -153,7 +154,8 @@
 
    #### 7. Operator Precedence
     7.1. Precedence determines the grouping of terms in an expression and decides how an expression is evaluated.
-    7.2. Certain operators have higher precedence than others; for example, the multiplication operator has higher precedence than the addition operator.
+    7.2. Certain operators have higher precedence than others; for example, the multiplication 
+    operator has higher precedence than the addition operator.
     7.3. Precedence is used to determine how an expression is evaluated.
     7.4. Precedence is also known as the order of operations.
     7.5. Precedence is used to resolve ambiguity that may otherwise arise from the order in which operators are specified.
