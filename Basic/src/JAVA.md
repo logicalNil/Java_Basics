@@ -10,9 +10,9 @@
     7. Java is a distributed language.
     8. Java is a dynamic language.
     9. Java is a interpreted language.
-10. Java is a high performance language.
-11. Java is a architecture neutral language.
-12. Java is a portable language.
+    10. Java is a high performance language.
+    11. Java is a architecture neutral language.
+    12. Java is a portable language.
 
 ## Data Types in Java
 
