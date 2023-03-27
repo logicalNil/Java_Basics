@@ -1,3 +1,68 @@
+## Objects in Java
+
+    1. Object is a real world entity.
+    2. Object is an instance of a class.
+    3. Object is a runtime entity.
+    4. Object is a collection of state and behavior.
+    5. Object is a non-primitive data type.
+    6. Object is a dynamic entity.
+    7. Object is a real world entity.
+
+## Classes in Java
+
+    1. Class is a blueprint or prototype from which objects are created.
+    2. Class is a logical entity.
+    3. Class is a compile time entity.
+    4. Class is a collection of state and behavior.
+    5. Class is a non-primitive data type.
+    6. Class is a static entity.
+    7. Class is a logical entity.
+
+## Inheritance in Java
+
+    1. Inheritance is a mechanism in which one object acquires all the properties and 
+        behaviors of a parent object.
+    2. Inheritance is used to achieve runtime polymorphism.
+    3. Inheritance is used to achieve code reusability.
+    4. Inheritance is used to achieve loose coupling.
+    5. Inheritance is used to achieve hierarchical structure.
+    6. Inheritance is used to achieve abstraction.
+    7. Inheritance is used to achieve encapsulation.
+
+## Polymorphism in Java
+
+    1. Polymorphism is a mechanism in which an object can take on many forms.
+    2. Polymorphism is used to achieve runtime polymorphism.
+    3. Polymorphism is used to achieve code reusability.
+    4. Polymorphism is used to achieve loose coupling.
+    5. Polymorphism is used to achieve hierarchical structure.
+    6. Polymorphism is used to achieve abstraction.
+    7. Polymorphism is used to achieve encapsulation.
+
+## Abstraction in Java
+
+    1. Abstraction is a process of hiding the implementation details and 
+        showing only functionality to the user.
+    2. Abstraction is used to achieve runtime polymorphism.
+    3. Abstraction is used to achieve code reusability.
+    4. Abstraction is used to achieve loose coupling.
+    5. Abstraction is used to achieve hierarchical structure.
+    6. Abstraction is used to achieve abstraction.
+    7. Abstraction is used to achieve encapsulation.
+
+## Encapsulation in Java
+
+    1. Encapsulation is a mechanism of wrapping the data (variables) and 
+        code acting on the data (methods) together as a single unit.
+    2. Encapsulation is used to achieve runtime polymorphism.
+    3. Encapsulation is used to achieve code reusability.
+    4. Encapsulation is used to achieve loose coupling.
+    5. Encapsulation is used to achieve hierarchical structure.
+    6. Encapsulation is used to achieve abstraction.
+    7. Encapsulation is used to achieve encapsulation.
+
+
+
 
 ##  Features of Java
 
@@ -36,7 +101,6 @@
     2.7. Packages
     2.8. Modules
     2.9. Records
-    2.10. Sealed Classes
 
 
 ## Constants in Java
@@ -80,13 +144,13 @@
         2.1. Instance Variables are variables that are declared inside a class, but outside a method, constructor or a block.
         2.2. When a space is allocated for an object in the heap, a slot for each instance variable value is created.
         2.3. Instance Variables are created when an object is created with the use of the keyword new, and they
-        will be destroyed when the object is destroyed.
+              will be destroyed when the object is destroyed.
         2.4. Instance Variables hold values that must be referenced by more than one method, constructor or block, 
         or essential parts of an object's state that must be present throughout the class.
         2.5. Access modifiers can be used for instance variables.
         2.6. Instance Variables are visible for all methods, constructors and block in the class.
         2.7. Instance Variables have default values. For numbers, the default value is 0; 
-        for Booleans, the default value is false; for Objects, the default value is null. 
+                for Booleans, the default value is false; for Objects, the default value is null. 
         Values can be assigned during the declaration or within the constructor.
         2.8. Instance Variables are implemented at heap level internally.
 
@@ -155,7 +219,7 @@
    #### 7. Operator Precedence
     7.1. Precedence determines the grouping of terms in an expression and decides how an expression is evaluated.
     7.2. Certain operators have higher precedence than others; for example, the multiplication 
-    operator has higher precedence than the addition operator.
+        operator has higher precedence than the addition operator.
     7.3. Precedence is used to determine how an expression is evaluated.
     7.4. Precedence is also known as the order of operations.
     7.5. Precedence is used to resolve ambiguity that may otherwise arise from the order in which operators are specified.
