@@ -31,12 +31,11 @@
 ## Polymorphism in Java
 
     1. Polymorphism is a mechanism in which an object can take on many forms.
-    2. Polymorphism is used to achieve runtime polymorphism.
-    3. Polymorphism is used to achieve code reusability.
-    4. Polymorphism is used to achieve loose coupling.
-    5. Polymorphism is used to achieve hierarchical structure.
-    6. Polymorphism is used to achieve abstraction.
-    7. Polymorphism is used to achieve encapsulation.
+    2. Polymorphism is used to achieve code reusability.
+    3. Polymorphism is used to achieve loose coupling.
+    4. Polymorphism is used to achieve hierarchical structure.
+    5. Polymorphism is used to achieve abstraction.
+    6. Polymorphism is used to achieve encapsulation.
 
 ## Abstraction in Java
 
@@ -58,7 +57,7 @@
     4. Encapsulation is used to achieve loose coupling.
     5. Encapsulation is used to achieve hierarchical structure.
     6. Encapsulation is used to achieve abstraction.
-    7. Encapsulation is used to achieve encapsulation.
+.
 
 
 
