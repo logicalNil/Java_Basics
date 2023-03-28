@@ -16,7 +16,6 @@
     4. Class is a collection of state and behavior.
     5. Class is a non-primitive data type.
     6. Class is a static entity.
-    7. Class is a logical entity.
 
 ## Inheritance in Java
 
