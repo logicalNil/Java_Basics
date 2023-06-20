@@ -7,7 +7,7 @@ public class Connect {
     public static void main(String[] args) {
         try {
             // Load the JDBC driver
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             System.out.println("Driver loaded");
 
             // Connect to a database
